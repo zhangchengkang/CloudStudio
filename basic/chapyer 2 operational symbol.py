@@ -39,7 +39,7 @@ d = 0
 d += c
 print("c=2; d=0; d+=c; d=?; result: ", d)
 
-# d -= c 等效于 d = d - c  （*= /= %= 都类似）
+# d -= c 等效于 d = d - c  （*= /= %= 都类似），可以自己敲着试试
 d = 0
 d -= c
 print("c=2; d=0; d-=c; d=?; result: ", d)

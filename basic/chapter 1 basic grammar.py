@@ -1,11 +1,17 @@
 # -*- coding: utf-8 -*-
+import sys
+
+
+print('')
+print('')
+print('================Python 输出 print==================================================================')
+print("print()可以在控制台输出哦，不信你试试看")
 
 
 print('')
 print('')
 print('================Python 注释 print==================================================================')
 # 注释
-import sys
 print("Hello World")
 
 """
@@ -32,6 +38,7 @@ else:
 
 
 # 以下代码最后一行语句缩进数的空格数不一致，会导致运行错误：
+# 可以把注释放开试试，控制台有报错信息
 '''
 if True:
     print ("Answer")4
@@ -79,6 +86,7 @@ print("World")
 将某个模块中的全部函数导入，格式为： from somemodule import *
 '''
 
+
 print('')
 print('')
 print('================Python import print=========================================================================')
@@ -89,6 +97,7 @@ print ('命令行参数为:', end=" " )
 for i in sys.argv:
     print (i)
 print ('\n python 路径为',sys.path)
+
 
 
 print('')
