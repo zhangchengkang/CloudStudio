@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 
+
+print('')
+print('')
+print('================Python 注释 print==================================================================')
 # 注释
-print('================Python 注释 print==========================')
 import sys
 print("Hello World")
 
@@ -15,11 +18,13 @@ print("Hello World")
 英文单引号
 '''
 
+
+print('')
+print('')
+print('================Python 缩进 print==================================================================')
 # 缩进
 # python最具特色的就是使用缩进来表示代码块，不需要使用大括号 {}
 # 缩进的空格数是可变的，但是同一个代码块的语句必须包含相同的缩进空格数。实例如下：
-print('================Python 缩进 print==========================')
-
 if True:
     print ("TRUE")
 else:
@@ -36,9 +41,11 @@ else:
   print("FALSE")
 '''
 
+print('')
+print('')
+print('================Python 多行语句 print==================================================================')
 # 多行语句
 # Python 通常是一行写完一条语句，但如果语句很长，我们可以使用反斜杠(\)来实现多行语句，例如：
-print('================Python 多行语句 print==========================')
 total = "item_one " + \
         "item_two " + \
         "item_three"
@@ -53,9 +60,12 @@ print (total)
 # Python可以在同一行中使用多条语句，语句之间使用分号(;)分割，以下是一个简单的实例：
 x = 'runoob';print("HELLO");print(x)
 
+
+print('')
+print('')
+print('================Python 不换行输出 print==================================================================')
 # Print 输出
 # print 默认输出是换行的，如果要实现不换行需要在变量末尾加上 end=""：(python 3才行)
-print('================Python 不换行输出 print==========================')
 print( x, end=" " )
 print("World")
 
@@ -68,8 +78,11 @@ print("World")
 从某个模块中导入多个函数,格式为： from somemodule import firstfunc, secondfunc, thirdfunc
 将某个模块中的全部函数导入，格式为： from somemodule import *
 '''
+
+print('')
+print('')
+print('================Python import print=========================================================================')
 # 导入sys模块
-print('================Python import print=================================')
 import sys
 
 print ('命令行参数为:', end=" " )
@@ -77,8 +90,11 @@ for i in sys.argv:
     print (i)
 print ('\n python 路径为',sys.path)
 
+
+print('')
+print('')
+print('================python from print===========================================================================')
 # 导入 sys 模块的 argv,path 成员
-print('================python from print===================================')
 from sys import argv,path
  
 print('path:',path) # 因为已经导入path成员，所以此处引用时不需要加sys.path
