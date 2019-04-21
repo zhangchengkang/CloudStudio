@@ -2,16 +2,20 @@
 import math
 import random
 
+# Python 數字
 # Python 支持三种不同的数值类型：
-
 # 整型(Int) - 通常被称为是整型或整数，是正或负整数，不带小数点。Python3 整型是没有限制大小的，可以当作 Long 类型使用，所以 Python3 没有 Python2 的 Long 类型。
 # 浮点型(float) - 浮点型由整数部分与小数部分组成，浮点型也可以使用科学计数法表示（2.5e2 = 2.5 x 102 = 250）
 # 复数( (complex)) - 复数由实数部分和虚数部分构成，可以用a + bj,或者complex(a,b)表示， 复数的实部a和虚部b都是浮点型。
 
 
+
+
 print('')
 print('')
-print('================Python 数值类型 print==========================')
+print('================Python 数值初始化 print==========================')
+# 数值初始化
+
 intNum = 10  # int
 floatNum = 10.0  # float
 complexNum = 3.14j  # complex
@@ -19,6 +23,13 @@ complexNum = 3.14j  # complex
 print(intNum)
 print(floatNum)
 print(complexNum)
+# type() 查询变量所指的对象类型
+print("type(intNum): ", type(intNum))
+print("type(floatNum): ", type(floatNum))
+print("type(complexNum): ", type(complexNum))
+
+
+
 
 
 print('')
@@ -27,6 +38,9 @@ print('================Python 数学常量 print==========================')
 # 数学常量
 print("pi : ", math.pi)
 print("e : ", math.e)
+
+
+
 
 
 print('')
@@ -42,13 +56,7 @@ print("complex(floatNum): ", complex(floatNum))
 print("complex(intNum,floatNum): ", complex(intNum, floatNum))
 
 
-print('')
-print('')
-print('================Python type() print==========================')
-# type() 查询变量所指的对象类型
-print("type(intNum): ", type(intNum))
-print("type(floatNum): ", type(floatNum))
-print("type(complexNum): ", type(complexNum))
+
 
 
 print('')
@@ -76,6 +84,10 @@ print("math.pow(c): ", math.pow(a, b))  # a**b 运算后的值。
 print("round(e): ", round(e, 1))   # 返回浮点数x的四舍五入值，如给出n值，则代表舍入到小数点后的位数。
 print("round(e): ", round(e))
 print("math.sqrt(a): ", math.sqrt(a))  # 返回数字x的平方根。
+
+
+
+
 
 
 print('')
@@ -108,6 +120,10 @@ print ("(7, 14)  : ",  random.uniform(7, 14))
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 random.shuffle(list)
 print("对 123456789随机排序 ：", list)
+
+
+
+
 
 
 print('')
