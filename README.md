@@ -13,5 +13,7 @@
    2. 空白处右键, 点击Git Bash Here
    3. 在弹出的黑框框里输入 git pull
 
-## notebook快捷键
-   [notebook快捷键网页链接](https://blog.csdn.net/eswai/article/details/53642802) 
+## notebook
+   [notebook快捷键指南](https://blog.csdn.net/eswai/article/details/53642802) 
+   [notebook换肤指南](https://blog.csdn.net/DSTJWJW/article/details/85304390) 
+
