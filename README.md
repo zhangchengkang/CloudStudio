@@ -29,7 +29,7 @@
    3. 在弹出的黑框框里输入 git pull 回车
 
 ## notebook
-   [notebook快捷键指南](https://blog.csdn.net/eswai/article/details/53642802) 
-   [notebook换肤指南](https://blog.csdn.net/DSTJWJW/article/details/85304390) 
-   [notebook修改文件地址](https://blog.csdn.net/sinat_34328764/article/details/82949498)
+   -[notebook快捷键指南](https://blog.csdn.net/eswai/article/details/53642802) 
+   -[notebook换肤指南](https://blog.csdn.net/DSTJWJW/article/details/85304390) 
+   -[notebook修改文件地址](https://blog.csdn.net/sinat_34328764/article/details/82949498)
 
