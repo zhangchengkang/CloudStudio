@@ -4,12 +4,13 @@
 
 ## 环境搭建
    1. 安装python
-   2. 安装ipython notebook
-     1. win+r  输入cmd回车  运行以下命令
-     2. pip install IPython
-     3. pip install urllib3 
-     4. pip install jupyter 
-     5. pin install anaconda
+   2. 安装ipython notebook (win+r  输入cmd回车  运行以下命令)
+   ````
+     pip install IPython
+     pip install urllib3 
+     pip install jupyter 
+     pin install anaconda
+   ````
    3. 安装git for windows
    4. 打开F盘,空白处右键, 点击Git Bash Here
    5. 在弹出的黑框框里输入 git clone https://github.com/zhangchengkang/python-notes-for-girlfriend.git 回车
