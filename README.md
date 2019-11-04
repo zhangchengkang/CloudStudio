@@ -21,7 +21,6 @@
    2. 输入 ipython notebook 回车
    3. 打开localhost:8888
    4. 选择笔记,开始阅读
-   5. 新建自己的目录及文件,要多动手敲!
 
 ## 更新笔记
    1. 打开 F:\python-notes-for-girlfriend
