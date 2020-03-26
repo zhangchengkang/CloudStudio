@@ -13,8 +13,8 @@
    ````
    3. 安装git for windows
    4. 打开F盘,空白处右键, 点击Git Bash Here
-   5. 在弹出的黑框框里输入 git clone https://github.com/zhangchengkang/python-notes-for-girlfriend.git 回车
-   6. 修改notebook默认文件地址为 F:\python-notes-for-girlfriend
+   5. 在弹出的黑框框里输入 git clone https://github.com/zhangchengkang/python-notes-for-.git 回车
+   6. 修改notebook默认文件地址为 F:\python-notes-for-
 
 ## 如何开始
    1. win+r  输入cmd回车
@@ -23,7 +23,7 @@
    4. 选择笔记,开始阅读
 
 ## 更新笔记
-   1. 打开 F:\python-notes-for-girlfriend
+   1. 打开 F:\python-notes-for-
    2. 空白处右键, 点击Git Bash Here
    3. 在弹出的黑框框里输入 git pull 回车
 
